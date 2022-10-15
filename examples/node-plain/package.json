@@ -1,0 +1,14 @@
+{
+  "name": "node-plain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jacopo Marrone",
+  "license": "MIT",
+  "dependencies": {
+    "@test-workspaces/utils-one": "1.0.0",
+    "@test-workspaces/utils-two": "1.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

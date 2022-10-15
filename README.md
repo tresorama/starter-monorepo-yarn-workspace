@@ -2,10 +2,17 @@
 
 https://www.youtube.com/watch?v=G8KXFWftCg0
 
+## How it works
 
-# Install all subworkspaces
+This monorepo is installed with `yarn`.
 
-Do this every time you add a new `workspace`.
-From root run `yarn install`.
+Every folder inside `packages` and `examples` are considered workspace.
+From a workspace you can add another workspace as a dependency.
+Then you can use it in the code.
 
-Root is the dir that contains this README file.
+## How to create a new workspace
+
+Create a new folder under `packages`.
+From there run `yarn init`.
+
+After that you need to remove `node_modules` from root of monorepo and run `yarn install`. This step will make `workspaces` importable in dependencies.

@@ -1,0 +1,18 @@
+{
+  "name": "browser-plain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jacopo Marrone",
+  "license": "MIT",
+  "dependencies": {
+    "@test-workspaces/utils-one": "1.0.0",
+    "@test-workspaces/utils-two": "1.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  }
+}

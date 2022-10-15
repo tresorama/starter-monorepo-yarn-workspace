@@ -1,0 +1,7 @@
+{
+  "name": "@test-workspaces/utils-two",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jacopo Marrone",
+  "license": "MIT"
+}

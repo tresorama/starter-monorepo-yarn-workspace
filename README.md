@@ -12,7 +12,10 @@ Then you can use it in the code.
 
 ## How to create a new workspace
 
-Create a new folder under `packages`.
+Create a new folder under `packages` or `examples`.  
 From there run `yarn init`.
 
-After that you need to remove `node_modules` from root of monorepo and run `yarn install`. This step will make `workspaces` importable in dependencies.
+After that you need to remove `node_modules` from root of monorepo and run `yarn install`.  
+This step will :
+- make all `workspaces` importable in dependencies in other `workspaces`.
+- install all dependencies of every `workspace`
